@@ -19,6 +19,8 @@ To stop:
 
 ### Other URLs
 
+ - Elda web interface [http://localhost:8080/demo](http://localhost:8080/demo) with root at [localhost:8080/](localhost:8080/)
+
  - rdf4j repositories manager
    [http://localhost:8090/rdf4j-workbench/](http://localhost:8090/rdf4j-workbench/)
  
