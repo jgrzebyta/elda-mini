@@ -1,6 +1,6 @@
 version: '2'
 services:
-  adalab-elda:
+  elda:
     build: ./elda/
     restart: always
     ports:
