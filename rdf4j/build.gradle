@@ -1,0 +1,37 @@
+buildscript {
+    repositories {
+        maven {
+            url 'https://oss.sonatype.org/content/repositories/releases/'
+        }
+    }
+}
+
+defaultTasks 'copy'
+
+configurations {
+    remoteWars
+}
+
+dependencies {
+    remoteWars "org.eclipse.rdf4j:rdf4j-http-server:${rdf4jVersion}@war"
+    remoteWars "org.eclipse.rdf4j:rdf4j-http-workbench:${rdf4jVersion}@war"
+}
+
+
+task copy(type: Copy) {
+    from configurations.remoteWars.resolve()
+    rename { String fileName ->
+        fileName.replaceAll("http-(\\w*)-${rdf4jVersion}", '$1')
+    }
+    into binDir
+    eachFile { println("Copy file: ${it.name}") }
+}
+
+task clean(type: Delete) {
+    delete binDir
+}
+
+
+
+task distclean(dependsOn: clean) {
+}

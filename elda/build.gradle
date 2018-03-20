@@ -1,0 +1,61 @@
+buildscript {
+	repositories {
+		mavenCentral()
+	}
+}
+
+repositories {
+	maven {
+		url 'https://repository.epimorphics.com/'
+	}
+}
+
+configurations {
+	remoteWars
+}
+
+dependencies {
+	remoteWars "com.epimorphics.lda:elda-common:${eldaVersion}@war"
+	remoteWars "com.epimorphics.lda:elda-assets:${eldaVersion}@war"
+}
+
+defaultTasks 'copy'
+
+
+task copyRemote(type: Copy) {
+	from configurations.remoteWars.resolve()
+	into binDir
+	rename { String fname ->
+		fname.replaceAll("-${eldaVersion}", '')
+	}
+	eachFile { println("Copy file: ${it.name}") }
+}
+
+def unpacked = file("$buildDir/unpacked")
+
+task unPack(type: Copy, dependsOn: copyRemote) {
+	def warFile = file("$binDir/elda-common.war")
+	from zipTree(warFile)
+	into unpacked
+}
+
+task replace(type: Copy, dependsOn: unPack) {
+	from file('repack')
+	into unpacked
+}
+
+task rePack(type: War, dependsOn: replace) {
+	baseName = 'elda-common'
+	destinationDir = file(binDir)
+	from unpacked
+}
+
+task copy(dependsOn: rePack)
+
+task clean(type: Delete) {
+    delete binDir
+	delete buildDir
+}
+
+
+task distclean(dependsOn: clean)

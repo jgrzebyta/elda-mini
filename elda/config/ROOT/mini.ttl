@@ -1,0 +1,57 @@
+# Configuration for AdaLab knowledge base
+
+
+@prefix api:                <http://purl.org/linked-data/api/vocab#> .
+
+@prefix rdf: 		    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: 		    <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		    <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: 		    <http://www.w3.org/2000/01/rdf-schema#> .
+
+@prefix resource: 	    <http://rdf.adalab-project.org/resource-api#> .
+@prefix views: 		    <http://rdf.adalab-project.org/viewers-api#> .
+
+@prefix sel: <http://rdf.adalab-project.org/selectors-api#> .
+
+
+# The elda namespace/prefix is for Elda extensions to the LDA specification.
+
+@prefix elda:               <http://www.epimorphics.com/vocabularies/lda#> .
+
+@prefix obo:		    <http://purl.obolibrary.org/obo/> .
+
+
+
+resource:webMain a api:API 
+	    ; rdfs:label "minimalistic test"@en
+	    ; api:sparqlEndpoint <http://rdf4j:8080/rdf4j-server/repositories/eldatest>
+	    ; api:maxPageSize 1000000
+	    ; api:defaultPageSize 10 
+	    ; api:defaultViewer api:labelledDescribeViewer 
+	    ; api:viewer api:labelledDescribeViewer, api:basicViewer
+	    ; api:defaultFormatter resource:VelocityFormatter
+	    ; api:variable [ api:name "_exceptionIfEmpty" ; api:value "no" ] ;
+	    ; api:variable [ api:name "_velocityPath"  ; api:value "/srv/local-assets/velocity , /var/lib/html/elda-assets/velocity"] ;
+	    ; api:variable [ api:name "_resourceRoot"  ; api:value "/elda-assets/"] ;
+	    ; api:variable [ api:name "_suppress_ipto" ; api:value "yes" ] # Suppress isPrimaryTopicOf
+	    ; api:endpoint resource:allTypes
+	    .
+
+resource:VelocityFormatter a elda:VelocityFormatter 
+	       ; rdfs:label "Velocity Formatter"
+	       ; api:name "html"
+	       ; api:mimeType "text/html"
+	       ; elda:className "com.epimorphics.lda.renderers.VelocityRendererFactory" .
+
+
+resource:allTypes a api:ListEndpoint
+              ; api:uriTemplate "/demo"
+	      ; rdfs:comment "Returns all resource domains"
+	      ; api:selector sel:allTypesSelector.
+
+############ Custom selectors
+
+sel:allTypesSelector a api:Selector
+ ; api:where "select distinct ?item where { [] a ?item } "
+ .
+

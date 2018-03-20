@@ -1,0 +1,9 @@
+**/.gradle
+**/build
+**/*.zip
+**/*.tar.bz2
+**/*.tar.gz
+**/*.jar
+**/bins
+.idea/
+*.iml

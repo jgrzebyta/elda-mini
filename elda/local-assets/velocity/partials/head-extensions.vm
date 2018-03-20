@@ -1,0 +1,4 @@
+## Extension point to add additional content to <head> element
+## E.g. additional JavaScript or CSS resources, or analytics
+
+<!-- <link rel="stylesheet" href="/local-assets/css/site-local.css"> -->

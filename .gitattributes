@@ -1,0 +1,12 @@
+*                  text eol=lf
+*.txt		   text eol=lf
+*.bat		   text eol=crlf
+*.jar		   binary
+*.war		   binary
+*.dat          binary
+*.alloc        binary
+*.data         binary
+*.ver          binary
+*.prop         binary
+*.hash         binary
+*.id           binary

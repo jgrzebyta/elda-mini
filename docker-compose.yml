@@ -1,0 +1,28 @@
+version: '2'
+services:
+  adalab-elda:
+    build: ./elda/
+    restart: always
+    ports:
+      - "8080:8080"
+    links:
+      - rdf4j
+    volumes:
+      - ./elda/config:/srv/config
+      - ./elda/local-assets:/srv/local-assets
+    networks:
+      - adalab
+
+  rdf4j:
+    build: ./rdf4j
+    restart: always
+    ports:
+      - "8090:8080" # only for data loading
+    volumes:
+      - ./data_store:/srv/rdf4j
+    networks:
+      - adalab
+
+networks:
+  adalab:
+
