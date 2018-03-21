@@ -139,3 +139,513 @@
 [INFO ] 2018-03-20 23:35:08,488 [repositories/eldatest] GET query -984748450
 [INFO ] 2018-03-20 23:35:08,698 [repositories/eldatest] Request for query -984748450 is finished
 [INFO ] 2018-03-20 23:39:59,412 [localhost-startStop-2] Closing WebApplicationContext for namespace 'rdf4j-http-server-servlet': startup date [Tue Mar 20 23:34:20 UTC 2018]; root of context hierarchy
+[INFO ] 2018-03-21 09:54:31,511 [localhost-startStop-1] Logback logging API implementation is configured.
+[INFO ] 2018-03-21 09:54:31,746 [localhost-startStop-1] Mapped URL path [/system/info/overview.view] onto handler 'commonWebappSystemInfoController'
+[INFO ] 2018-03-21 09:54:31,749 [localhost-startStop-1] Mapped URL path [/system/overview.view] onto handler 'commonWebappSystemOverviewController'
+[INFO ] 2018-03-21 09:54:31,749 [localhost-startStop-1] Mapped URL path [/system/info/debug.view] onto handler 'filenameViewController'
+[INFO ] 2018-03-21 09:54:31,753 [localhost-startStop-1] Mapped URL path [/system/logging/overview.view] onto handler 'commonWebappLoggingOverviewController'
+[INFO ] 2018-03-21 09:54:32,116 [localhost-startStop-1] Mapped URL path [/protocol] onto handler 'rdf4jProtocolController'
+[INFO ] 2018-03-21 09:54:32,126 [localhost-startStop-1] Mapped URL path [/repositories] onto handler 'rdf4jRepositoryListController'
+[INFO ] 2018-03-21 09:54:32,128 [localhost-startStop-1] Mapped URL path [/repositories/*/namespaces] onto handler 'rdf4jRepositoryNamespacesController'
+[INFO ] 2018-03-21 09:54:32,131 [localhost-startStop-1] Mapped URL path [/repositories/*/transactions/*] onto handler 'rdf4jRepositoryTransactionController'
+[INFO ] 2018-03-21 09:54:32,132 [localhost-startStop-1] Mapped URL path [/repositories/*/size] onto handler 'rdf4jRepositorySizeController'
+[INFO ] 2018-03-21 09:54:32,132 [localhost-startStop-1] Mapped URL path [/repositories/*/transactions] onto handler 'rdf4jRepositoryTransactionStartController'
+[INFO ] 2018-03-21 09:54:32,132 [localhost-startStop-1] Mapped URL path [/repositories/*/contexts] onto handler 'rdf4jRepositoryContextsController'
+[INFO ] 2018-03-21 09:54:32,136 [localhost-startStop-1] Mapped URL path [/repositories/*] onto handler 'rdf4jRepositoryController'
+[INFO ] 2018-03-21 09:54:32,137 [localhost-startStop-1] Mapped URL path [/repositories/*/namespaces/*] onto handler 'rdf4jRepositoryNamespaceController'
+[INFO ] 2018-03-21 09:54:32,138 [localhost-startStop-1] Mapped URL path [/repositories/*/statements] onto handler 'rdf4jRepositoryStatementsController'
+[INFO ] 2018-03-21 09:54:32,138 [localhost-startStop-1] Mapped URL path [/repositories/*/rdf-graphs/*] onto handler 'rdf4jRepositoryGraphController'
+[INFO ] 2018-03-21 09:54:32,139 [localhost-startStop-1] Mapped URL path [/repositories/*/rdf-graphs] onto handler 'rdf4jRepositoryContextsController'
+[INFO ] 2018-03-21 09:54:32,139 [localhost-startStop-1] Mapped URL path [/home/overview.view] onto handler 'filenameViewController'
+[INFO ] 2018-03-21 09:54:32,139 [localhost-startStop-1] Mapped URL path [/overview.view] onto handler 'filenameViewController'
+[INFO ] 2018-03-21 09:54:32,234 [localhost-startStop-1] FrameworkServlet 'rdf4j-http-server': initialization completed in 1595 ms
+[INFO ] 2018-03-21 09:58:16,051 [repositories/eldatest] GET query -984748450
+[INFO ] 2018-03-21 09:58:16,230 [repositories/eldatest] Request for query -984748450 is finished
+[INFO ] 2018-03-21 10:11:19,365 [localhost-startStop-2] Closing WebApplicationContext for namespace 'rdf4j-http-server-servlet': startup date [Wed Mar 21 09:54:30 UTC 2018]; root of context hierarchy
+[INFO ] 2018-03-21 10:12:55,241 [localhost-startStop-1] Logback logging API implementation is configured.
+[INFO ] 2018-03-21 10:12:55,364 [localhost-startStop-1] Mapped URL path [/system/info/overview.view] onto handler 'commonWebappSystemInfoController'
+[INFO ] 2018-03-21 10:12:55,368 [localhost-startStop-1] Mapped URL path [/system/overview.view] onto handler 'commonWebappSystemOverviewController'
+[INFO ] 2018-03-21 10:12:55,368 [localhost-startStop-1] Mapped URL path [/system/info/debug.view] onto handler 'filenameViewController'
+[INFO ] 2018-03-21 10:12:55,372 [localhost-startStop-1] Mapped URL path [/system/logging/overview.view] onto handler 'commonWebappLoggingOverviewController'
+[INFO ] 2018-03-21 10:12:55,629 [localhost-startStop-1] Mapped URL path [/protocol] onto handler 'rdf4jProtocolController'
+[INFO ] 2018-03-21 10:12:55,652 [localhost-startStop-1] Mapped URL path [/repositories] onto handler 'rdf4jRepositoryListController'
+[INFO ] 2018-03-21 10:12:55,662 [localhost-startStop-1] Mapped URL path [/repositories/*/namespaces] onto handler 'rdf4jRepositoryNamespacesController'
+[INFO ] 2018-03-21 10:12:55,675 [localhost-startStop-1] Mapped URL path [/repositories/*/transactions/*] onto handler 'rdf4jRepositoryTransactionController'
+[INFO ] 2018-03-21 10:12:55,676 [localhost-startStop-1] Mapped URL path [/repositories/*/size] onto handler 'rdf4jRepositorySizeController'
+[INFO ] 2018-03-21 10:12:55,678 [localhost-startStop-1] Mapped URL path [/repositories/*/transactions] onto handler 'rdf4jRepositoryTransactionStartController'
+[INFO ] 2018-03-21 10:12:55,679 [localhost-startStop-1] Mapped URL path [/repositories/*/contexts] onto handler 'rdf4jRepositoryContextsController'
+[INFO ] 2018-03-21 10:12:55,686 [localhost-startStop-1] Mapped URL path [/repositories/*] onto handler 'rdf4jRepositoryController'
+[INFO ] 2018-03-21 10:12:55,686 [localhost-startStop-1] Mapped URL path [/repositories/*/namespaces/*] onto handler 'rdf4jRepositoryNamespaceController'
+[INFO ] 2018-03-21 10:12:55,688 [localhost-startStop-1] Mapped URL path [/repositories/*/statements] onto handler 'rdf4jRepositoryStatementsController'
+[INFO ] 2018-03-21 10:12:55,688 [localhost-startStop-1] Mapped URL path [/repositories/*/rdf-graphs/*] onto handler 'rdf4jRepositoryGraphController'
+[INFO ] 2018-03-21 10:12:55,688 [localhost-startStop-1] Mapped URL path [/repositories/*/rdf-graphs] onto handler 'rdf4jRepositoryContextsController'
+[INFO ] 2018-03-21 10:12:55,689 [localhost-startStop-1] Mapped URL path [/home/overview.view] onto handler 'filenameViewController'
+[INFO ] 2018-03-21 10:12:55,689 [localhost-startStop-1] Mapped URL path [/overview.view] onto handler 'filenameViewController'
+[INFO ] 2018-03-21 10:12:55,733 [localhost-startStop-1] FrameworkServlet 'rdf4j-http-server': initialization completed in 1062 ms
+[INFO ] 2018-03-21 10:13:28,129 [repositories/SYSTEM] GET statements
+[INFO ] 2018-03-21 10:13:28,512 [http-nio-8080-exec-9] Request for query 3392903 is finished
+[INFO ] 2018-03-21 10:13:33,180 [repositories/SYSTEM] GET statements
+[INFO ] 2018-03-21 10:13:33,190 [http-nio-8080-exec-7] Request for query 3392903 is finished
+[INFO ] 2018-03-21 10:13:33,385 [repositories/eldatest] Request for query 3392903 is finished
+[INFO ] 2018-03-21 10:13:33,428 [repositories/SYSTEM] GET statements
+[INFO ] 2018-03-21 10:13:35,630 [repositories/eldatest] GET namespace list
+[INFO ] 2018-03-21 10:13:35,633 [repositories/eldatest] Request for query 3392903 is finished
+[INFO ] 2018-03-21 10:13:35,671 [repositories/SYSTEM] GET statements
+[INFO ] 2018-03-21 10:13:35,686 [repositories/eldatest] GET namespace list
+[INFO ] 2018-03-21 10:13:35,687 [repositories/eldatest] Request for query 3392903 is finished
+[INFO ] 2018-03-21 10:13:43,076 [repositories/eldatest] GET namespace list
+[INFO ] 2018-03-21 10:13:43,077 [repositories/eldatest] Request for query 3392903 is finished
+[INFO ] 2018-03-21 10:13:43,092 [repositories/eldatest] POST query -1653006012
+[INFO ] 2018-03-21 10:13:43,157 [repositories/eldatest] Request for query -1653006012 is finished
+[INFO ] 2018-03-21 10:13:43,205 [repositories/SYSTEM] GET statements
+[INFO ] 2018-03-21 10:15:15,459 [repositories/eldatest] GET query -984748450
+[INFO ] 2018-03-21 10:15:15,469 [repositories/eldatest] Request for query -984748450 is finished
+[INFO ] 2018-03-21 10:15:18,715 [repositories/eldatest] GET query -984748450
+[INFO ] 2018-03-21 10:15:18,718 [repositories/eldatest] Request for query -984748450 is finished
+[INFO ] 2018-03-21 10:34:52,525 [localhost-startStop-2] Closing WebApplicationContext for namespace 'rdf4j-http-server-servlet': startup date [Wed Mar 21 10:12:54 UTC 2018]; root of context hierarchy
+[INFO ] 2018-03-21 10:36:33,582 [localhost-startStop-1] Logback logging API implementation is configured.
+[INFO ] 2018-03-21 10:36:33,736 [localhost-startStop-1] Mapped URL path [/system/info/overview.view] onto handler 'commonWebappSystemInfoController'
+[INFO ] 2018-03-21 10:36:33,744 [localhost-startStop-1] Mapped URL path [/system/overview.view] onto handler 'commonWebappSystemOverviewController'
+[INFO ] 2018-03-21 10:36:33,744 [localhost-startStop-1] Mapped URL path [/system/info/debug.view] onto handler 'filenameViewController'
+[INFO ] 2018-03-21 10:36:33,750 [localhost-startStop-1] Mapped URL path [/system/logging/overview.view] onto handler 'commonWebappLoggingOverviewController'
+[INFO ] 2018-03-21 10:36:34,056 [localhost-startStop-1] Mapped URL path [/protocol] onto handler 'rdf4jProtocolController'
+[INFO ] 2018-03-21 10:36:34,065 [localhost-startStop-1] Mapped URL path [/repositories] onto handler 'rdf4jRepositoryListController'
+[INFO ] 2018-03-21 10:36:34,067 [localhost-startStop-1] Mapped URL path [/repositories/*/namespaces] onto handler 'rdf4jRepositoryNamespacesController'
+[INFO ] 2018-03-21 10:36:34,081 [localhost-startStop-1] Mapped URL path [/repositories/*/transactions/*] onto handler 'rdf4jRepositoryTransactionController'
+[INFO ] 2018-03-21 10:36:34,081 [localhost-startStop-1] Mapped URL path [/repositories/*/size] onto handler 'rdf4jRepositorySizeController'
+[INFO ] 2018-03-21 10:36:34,082 [localhost-startStop-1] Mapped URL path [/repositories/*/transactions] onto handler 'rdf4jRepositoryTransactionStartController'
+[INFO ] 2018-03-21 10:36:34,082 [localhost-startStop-1] Mapped URL path [/repositories/*/contexts] onto handler 'rdf4jRepositoryContextsController'
+[INFO ] 2018-03-21 10:36:34,086 [localhost-startStop-1] Mapped URL path [/repositories/*] onto handler 'rdf4jRepositoryController'
+[INFO ] 2018-03-21 10:36:34,087 [localhost-startStop-1] Mapped URL path [/repositories/*/namespaces/*] onto handler 'rdf4jRepositoryNamespaceController'
+[INFO ] 2018-03-21 10:36:34,088 [localhost-startStop-1] Mapped URL path [/repositories/*/statements] onto handler 'rdf4jRepositoryStatementsController'
+[INFO ] 2018-03-21 10:36:34,089 [localhost-startStop-1] Mapped URL path [/repositories/*/rdf-graphs/*] onto handler 'rdf4jRepositoryGraphController'
+[INFO ] 2018-03-21 10:36:34,089 [localhost-startStop-1] Mapped URL path [/repositories/*/rdf-graphs] onto handler 'rdf4jRepositoryContextsController'
+[INFO ] 2018-03-21 10:36:34,090 [localhost-startStop-1] Mapped URL path [/home/overview.view] onto handler 'filenameViewController'
+[INFO ] 2018-03-21 10:36:34,090 [localhost-startStop-1] Mapped URL path [/overview.view] onto handler 'filenameViewController'
+[INFO ] 2018-03-21 10:36:34,164 [localhost-startStop-1] FrameworkServlet 'rdf4j-http-server': initialization completed in 1135 ms
+[INFO ] 2018-03-21 10:36:49,038 [repositories/eldatest] GET query -984748450
+[INFO ] 2018-03-21 10:36:49,260 [repositories/eldatest] Request for query -984748450 is finished
+[INFO ] 2018-03-21 10:39:53,063 [repositories/eldatest] GET query -984748450
+[INFO ] 2018-03-21 10:39:53,070 [repositories/eldatest] Request for query -984748450 is finished
+[INFO ] 2018-03-21 10:43:20,074 [repositories/eldatest] GET query -984748450
+[INFO ] 2018-03-21 10:43:20,087 [repositories/eldatest] Request for query -984748450 is finished
+[INFO ] 2018-03-21 11:13:21,549 [localhost-startStop-2] Closing WebApplicationContext for namespace 'rdf4j-http-server-servlet': startup date [Wed Mar 21 10:36:33 UTC 2018]; root of context hierarchy
+[INFO ] 2018-03-21 11:14:35,281 [localhost-startStop-1] Logback logging API implementation is configured.
+[INFO ] 2018-03-21 11:14:35,433 [localhost-startStop-1] Mapped URL path [/system/info/overview.view] onto handler 'commonWebappSystemInfoController'
+[INFO ] 2018-03-21 11:14:35,438 [localhost-startStop-1] Mapped URL path [/system/overview.view] onto handler 'commonWebappSystemOverviewController'
+[INFO ] 2018-03-21 11:14:35,438 [localhost-startStop-1] Mapped URL path [/system/info/debug.view] onto handler 'filenameViewController'
+[INFO ] 2018-03-21 11:14:35,442 [localhost-startStop-1] Mapped URL path [/system/logging/overview.view] onto handler 'commonWebappLoggingOverviewController'
+[INFO ] 2018-03-21 11:14:35,774 [localhost-startStop-1] Mapped URL path [/protocol] onto handler 'rdf4jProtocolController'
+[INFO ] 2018-03-21 11:14:35,791 [localhost-startStop-1] Mapped URL path [/repositories] onto handler 'rdf4jRepositoryListController'
+[INFO ] 2018-03-21 11:14:35,793 [localhost-startStop-1] Mapped URL path [/repositories/*/namespaces] onto handler 'rdf4jRepositoryNamespacesController'
+[INFO ] 2018-03-21 11:14:35,799 [localhost-startStop-1] Mapped URL path [/repositories/*/transactions/*] onto handler 'rdf4jRepositoryTransactionController'
+[INFO ] 2018-03-21 11:14:35,800 [localhost-startStop-1] Mapped URL path [/repositories/*/size] onto handler 'rdf4jRepositorySizeController'
+[INFO ] 2018-03-21 11:14:35,800 [localhost-startStop-1] Mapped URL path [/repositories/*/transactions] onto handler 'rdf4jRepositoryTransactionStartController'
+[INFO ] 2018-03-21 11:14:35,801 [localhost-startStop-1] Mapped URL path [/repositories/*/contexts] onto handler 'rdf4jRepositoryContextsController'
+[INFO ] 2018-03-21 11:14:35,804 [localhost-startStop-1] Mapped URL path [/repositories/*] onto handler 'rdf4jRepositoryController'
+[INFO ] 2018-03-21 11:14:35,804 [localhost-startStop-1] Mapped URL path [/repositories/*/namespaces/*] onto handler 'rdf4jRepositoryNamespaceController'
+[INFO ] 2018-03-21 11:14:35,806 [localhost-startStop-1] Mapped URL path [/repositories/*/statements] onto handler 'rdf4jRepositoryStatementsController'
+[INFO ] 2018-03-21 11:14:35,806 [localhost-startStop-1] Mapped URL path [/repositories/*/rdf-graphs/*] onto handler 'rdf4jRepositoryGraphController'
+[INFO ] 2018-03-21 11:14:35,806 [localhost-startStop-1] Mapped URL path [/repositories/*/rdf-graphs] onto handler 'rdf4jRepositoryContextsController'
+[INFO ] 2018-03-21 11:14:35,807 [localhost-startStop-1] Mapped URL path [/home/overview.view] onto handler 'filenameViewController'
+[INFO ] 2018-03-21 11:14:35,807 [localhost-startStop-1] Mapped URL path [/overview.view] onto handler 'filenameViewController'
+[INFO ] 2018-03-21 11:14:35,861 [localhost-startStop-1] FrameworkServlet 'rdf4j-http-server': initialization completed in 1413 ms
+[INFO ] 2018-03-21 11:25:41,543 [repositories/eldatest] GET query -984748450
+[INFO ] 2018-03-21 11:25:41,742 [repositories/eldatest] Request for query -984748450 is finished
+[INFO ] 2018-03-21 11:36:35,714 [repositories/eldatest] GET query -984748450
+[INFO ] 2018-03-21 11:36:35,718 [repositories/eldatest] Request for query -984748450 is finished
+[INFO ] 2018-03-21 11:48:13,923 [repositories/eldatest] GET query -984748450
+[INFO ] 2018-03-21 11:48:13,929 [repositories/eldatest] Request for query -984748450 is finished
+[INFO ] 2018-03-21 11:48:24,670 [repositories/eldatest] GET query -984748450
+[INFO ] 2018-03-21 11:48:24,676 [repositories/eldatest] Request for query -984748450 is finished
+[INFO ] 2018-03-21 11:50:47,100 [repositories/eldatest] GET query -984748450
+[INFO ] 2018-03-21 11:50:47,120 [repositories/eldatest] Client sent bad request ( 406)
+org.eclipse.rdf4j.http.server.ClientHTTPException: No acceptable file format found.
+	at org.eclipse.rdf4j.http.server.ProtocolUtil.getAcceptableService(ProtocolUtil.java:198)
+	at org.eclipse.rdf4j.http.server.repository.RepositoryController.handleRequestInternal(RepositoryController.java:257)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:147)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:300)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[INFO ] 2018-03-21 11:51:31,585 [repositories/eldatest] GET query -984748450
+[INFO ] 2018-03-21 11:51:31,588 [repositories/eldatest] Client sent bad request ( 406)
+org.eclipse.rdf4j.http.server.ClientHTTPException: No acceptable file format found.
+	at org.eclipse.rdf4j.http.server.ProtocolUtil.getAcceptableService(ProtocolUtil.java:198)
+	at org.eclipse.rdf4j.http.server.repository.RepositoryController.handleRequestInternal(RepositoryController.java:257)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:147)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:300)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[INFO ] 2018-03-21 11:51:51,685 [repositories/eldatest] GET query -984748450
+[INFO ] 2018-03-21 11:51:51,686 [repositories/eldatest] Client sent bad request ( 406)
+org.eclipse.rdf4j.http.server.ClientHTTPException: No acceptable file format found.
+	at org.eclipse.rdf4j.http.server.ProtocolUtil.getAcceptableService(ProtocolUtil.java:198)
+	at org.eclipse.rdf4j.http.server.repository.RepositoryController.handleRequestInternal(RepositoryController.java:257)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:147)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:300)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[INFO ] 2018-03-21 11:52:10,247 [repositories/eldatest] GET query -984748450
+[INFO ] 2018-03-21 11:52:10,249 [repositories/eldatest] Client sent bad request ( 406)
+org.eclipse.rdf4j.http.server.ClientHTTPException: No acceptable file format found.
+	at org.eclipse.rdf4j.http.server.ProtocolUtil.getAcceptableService(ProtocolUtil.java:198)
+	at org.eclipse.rdf4j.http.server.repository.RepositoryController.handleRequestInternal(RepositoryController.java:257)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:147)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:300)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[INFO ] 2018-03-21 11:56:19,798 [repositories/eldatest] GET query -984748450
+[INFO ] 2018-03-21 11:56:19,803 [repositories/eldatest] Request for query -984748450 is finished
+[INFO ] 2018-03-21 11:57:00,043 [repositories/eldatest] GET query -984748450
+[INFO ] 2018-03-21 11:57:00,047 [repositories/eldatest] Request for query -984748450 is finished
+[INFO ] 2018-03-21 12:12:49,872 [repositories/eldatest1] Client sent bad request ( 404)
+org.eclipse.rdf4j.http.server.ClientHTTPException: Unknown repository: eldatest1
+	at org.eclipse.rdf4j.http.server.repository.RepositoryInterceptor.setRequestAttributes(RepositoryInterceptor.java:110)
+	at org.eclipse.rdf4j.http.server.ServerInterceptor.preHandle(ServerInterceptor.java:34)
+	at org.eclipse.rdf4j.http.server.repository.RepositoryInterceptor.preHandle(RepositoryInterceptor.java:85)
+	at org.eclipse.rdf4j.http.server.repository.RepositoryInterceptor$$FastClassBySpringCGLIB$$7a1fdc31.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:717)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.doProceed(DelegatingIntroductionInterceptor.java:133)
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:121)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:653)
+	at org.eclipse.rdf4j.http.server.repository.RepositoryInterceptor$$EnhancerBySpringCGLIB$$524363f5.preHandle(<generated>)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:134)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:954)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:300)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[INFO ] 2018-03-21 12:13:53,530 [repositories/eldatest1] Client sent bad request ( 404)
+org.eclipse.rdf4j.http.server.ClientHTTPException: Unknown repository: eldatest1
+	at org.eclipse.rdf4j.http.server.repository.RepositoryInterceptor.setRequestAttributes(RepositoryInterceptor.java:110)
+	at org.eclipse.rdf4j.http.server.ServerInterceptor.preHandle(ServerInterceptor.java:34)
+	at org.eclipse.rdf4j.http.server.repository.RepositoryInterceptor.preHandle(RepositoryInterceptor.java:85)
+	at org.eclipse.rdf4j.http.server.repository.RepositoryInterceptor$$FastClassBySpringCGLIB$$7a1fdc31.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:717)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.doProceed(DelegatingIntroductionInterceptor.java:133)
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:121)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:653)
+	at org.eclipse.rdf4j.http.server.repository.RepositoryInterceptor$$EnhancerBySpringCGLIB$$524363f5.preHandle(<generated>)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:134)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:954)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:300)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[INFO ] 2018-03-21 12:19:16,092 [repositories/eldatest1] Client sent bad request ( 404)
+org.eclipse.rdf4j.http.server.ClientHTTPException: Unknown repository: eldatest1
+	at org.eclipse.rdf4j.http.server.repository.RepositoryInterceptor.setRequestAttributes(RepositoryInterceptor.java:110)
+	at org.eclipse.rdf4j.http.server.ServerInterceptor.preHandle(ServerInterceptor.java:34)
+	at org.eclipse.rdf4j.http.server.repository.RepositoryInterceptor.preHandle(RepositoryInterceptor.java:85)
+	at org.eclipse.rdf4j.http.server.repository.RepositoryInterceptor$$FastClassBySpringCGLIB$$7a1fdc31.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:717)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.doProceed(DelegatingIntroductionInterceptor.java:133)
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:121)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:653)
+	at org.eclipse.rdf4j.http.server.repository.RepositoryInterceptor$$EnhancerBySpringCGLIB$$524363f5.preHandle(<generated>)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:134)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:954)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:300)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[INFO ] 2018-03-21 12:19:35,044 [repositories/eldatest] GET query 647376491
+[INFO ] 2018-03-21 12:19:35,049 [repositories/eldatest] Client sent bad request ( 400)
+org.eclipse.rdf4j.http.server.ClientHTTPException: MALFORMED QUERY: Lexical error at line 2, column 4.  Encountered: "\n" (10), after : "WHE"
+	at org.eclipse.rdf4j.http.server.repository.RepositoryController.getQuery(RepositoryController.java:377)
+	at org.eclipse.rdf4j.http.server.repository.RepositoryController.handleRequestInternal(RepositoryController.java:192)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:147)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:300)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[INFO ] 2018-03-21 12:24:33,125 [localhost-startStop-2] Closing WebApplicationContext for namespace 'rdf4j-http-server-servlet': startup date [Wed Mar 21 11:14:34 UTC 2018]; root of context hierarchy
+[INFO ] 2018-03-21 13:40:34,841 [localhost-startStop-1] Logback logging API implementation is configured.
+[INFO ] 2018-03-21 13:40:35,042 [localhost-startStop-1] Mapped URL path [/system/info/overview.view] onto handler 'commonWebappSystemInfoController'
+[INFO ] 2018-03-21 13:40:35,050 [localhost-startStop-1] Mapped URL path [/system/overview.view] onto handler 'commonWebappSystemOverviewController'
+[INFO ] 2018-03-21 13:40:35,050 [localhost-startStop-1] Mapped URL path [/system/info/debug.view] onto handler 'filenameViewController'
+[INFO ] 2018-03-21 13:40:35,056 [localhost-startStop-1] Mapped URL path [/system/logging/overview.view] onto handler 'commonWebappLoggingOverviewController'
+[INFO ] 2018-03-21 13:40:35,307 [localhost-startStop-1] Mapped URL path [/protocol] onto handler 'rdf4jProtocolController'
+[INFO ] 2018-03-21 13:40:35,321 [localhost-startStop-1] Mapped URL path [/repositories] onto handler 'rdf4jRepositoryListController'
+[INFO ] 2018-03-21 13:40:35,323 [localhost-startStop-1] Mapped URL path [/repositories/*/namespaces] onto handler 'rdf4jRepositoryNamespacesController'
+[INFO ] 2018-03-21 13:40:35,326 [localhost-startStop-1] Mapped URL path [/repositories/*/transactions/*] onto handler 'rdf4jRepositoryTransactionController'
+[INFO ] 2018-03-21 13:40:35,326 [localhost-startStop-1] Mapped URL path [/repositories/*/size] onto handler 'rdf4jRepositorySizeController'
+[INFO ] 2018-03-21 13:40:35,326 [localhost-startStop-1] Mapped URL path [/repositories/*/transactions] onto handler 'rdf4jRepositoryTransactionStartController'
+[INFO ] 2018-03-21 13:40:35,327 [localhost-startStop-1] Mapped URL path [/repositories/*/contexts] onto handler 'rdf4jRepositoryContextsController'
+[INFO ] 2018-03-21 13:40:35,329 [localhost-startStop-1] Mapped URL path [/repositories/*] onto handler 'rdf4jRepositoryController'
+[INFO ] 2018-03-21 13:40:35,330 [localhost-startStop-1] Mapped URL path [/repositories/*/namespaces/*] onto handler 'rdf4jRepositoryNamespaceController'
+[INFO ] 2018-03-21 13:40:35,331 [localhost-startStop-1] Mapped URL path [/repositories/*/statements] onto handler 'rdf4jRepositoryStatementsController'
+[INFO ] 2018-03-21 13:40:35,332 [localhost-startStop-1] Mapped URL path [/repositories/*/rdf-graphs/*] onto handler 'rdf4jRepositoryGraphController'
+[INFO ] 2018-03-21 13:40:35,332 [localhost-startStop-1] Mapped URL path [/repositories/*/rdf-graphs] onto handler 'rdf4jRepositoryContextsController'
+[INFO ] 2018-03-21 13:40:35,332 [localhost-startStop-1] Mapped URL path [/home/overview.view] onto handler 'filenameViewController'
+[INFO ] 2018-03-21 13:40:35,332 [localhost-startStop-1] Mapped URL path [/overview.view] onto handler 'filenameViewController'
+[INFO ] 2018-03-21 13:40:35,383 [localhost-startStop-1] FrameworkServlet 'rdf4j-http-server': initialization completed in 1234 ms
+[INFO ] 2018-03-21 13:42:08,493 [repositories/eldatest] GET query -984748450
+[INFO ] 2018-03-21 13:42:08,645 [repositories/eldatest] Request for query -984748450 is finished
+[INFO ] 2018-03-21 13:42:13,917 [repositories/eldatest] GET query -984748450
+[INFO ] 2018-03-21 13:42:13,921 [repositories/eldatest] Request for query -984748450 is finished
+[INFO ] 2018-03-21 13:42:36,739 [repositories/eldatest] GET query -984748450
+[INFO ] 2018-03-21 13:42:36,742 [repositories/eldatest] Request for query -984748450 is finished
+[INFO ] 2018-03-21 13:42:47,423 [repositories/eldatest] GET query -984748450
+[INFO ] 2018-03-21 13:42:47,426 [repositories/eldatest] Request for query -984748450 is finished
+[INFO ] 2018-03-21 14:19:33,675 [localhost-startStop-2] Closing WebApplicationContext for namespace 'rdf4j-http-server-servlet': startup date [Wed Mar 21 13:40:34 GMT 2018]; root of context hierarchy
+[INFO ] 2018-03-21 14:34:46,048 [localhost-startStop-1] Logback logging API implementation is configured.
+[INFO ] 2018-03-21 14:34:46,194 [localhost-startStop-1] Mapped URL path [/system/info/overview.view] onto handler 'commonWebappSystemInfoController'
+[INFO ] 2018-03-21 14:34:46,196 [localhost-startStop-1] Mapped URL path [/system/overview.view] onto handler 'commonWebappSystemOverviewController'
+[INFO ] 2018-03-21 14:34:46,196 [localhost-startStop-1] Mapped URL path [/system/info/debug.view] onto handler 'filenameViewController'
+[INFO ] 2018-03-21 14:34:46,202 [localhost-startStop-1] Mapped URL path [/system/logging/overview.view] onto handler 'commonWebappLoggingOverviewController'
+[INFO ] 2018-03-21 14:34:46,441 [localhost-startStop-1] Mapped URL path [/protocol] onto handler 'rdf4jProtocolController'
+[INFO ] 2018-03-21 14:34:46,449 [localhost-startStop-1] Mapped URL path [/repositories] onto handler 'rdf4jRepositoryListController'
+[INFO ] 2018-03-21 14:34:46,451 [localhost-startStop-1] Mapped URL path [/repositories/*/namespaces] onto handler 'rdf4jRepositoryNamespacesController'
+[INFO ] 2018-03-21 14:34:46,456 [localhost-startStop-1] Mapped URL path [/repositories/*/transactions/*] onto handler 'rdf4jRepositoryTransactionController'
+[INFO ] 2018-03-21 14:34:46,457 [localhost-startStop-1] Mapped URL path [/repositories/*/size] onto handler 'rdf4jRepositorySizeController'
+[INFO ] 2018-03-21 14:34:46,457 [localhost-startStop-1] Mapped URL path [/repositories/*/transactions] onto handler 'rdf4jRepositoryTransactionStartController'
+[INFO ] 2018-03-21 14:34:46,457 [localhost-startStop-1] Mapped URL path [/repositories/*/contexts] onto handler 'rdf4jRepositoryContextsController'
+[INFO ] 2018-03-21 14:34:46,462 [localhost-startStop-1] Mapped URL path [/repositories/*] onto handler 'rdf4jRepositoryController'
+[INFO ] 2018-03-21 14:34:46,463 [localhost-startStop-1] Mapped URL path [/repositories/*/namespaces/*] onto handler 'rdf4jRepositoryNamespaceController'
+[INFO ] 2018-03-21 14:34:46,465 [localhost-startStop-1] Mapped URL path [/repositories/*/statements] onto handler 'rdf4jRepositoryStatementsController'
+[INFO ] 2018-03-21 14:34:46,465 [localhost-startStop-1] Mapped URL path [/repositories/*/rdf-graphs/*] onto handler 'rdf4jRepositoryGraphController'
+[INFO ] 2018-03-21 14:34:46,465 [localhost-startStop-1] Mapped URL path [/repositories/*/rdf-graphs] onto handler 'rdf4jRepositoryContextsController'
+[INFO ] 2018-03-21 14:34:46,466 [localhost-startStop-1] Mapped URL path [/home/overview.view] onto handler 'filenameViewController'
+[INFO ] 2018-03-21 14:34:46,466 [localhost-startStop-1] Mapped URL path [/overview.view] onto handler 'filenameViewController'
+[INFO ] 2018-03-21 14:34:46,509 [localhost-startStop-1] FrameworkServlet 'rdf4j-http-server': initialization completed in 1055 ms
+[INFO ] 2018-03-21 14:35:52,648 [localhost-startStop-2] Closing WebApplicationContext for namespace 'rdf4j-http-server-servlet': startup date [Wed Mar 21 14:34:45 GMT 2018]; root of context hierarchy

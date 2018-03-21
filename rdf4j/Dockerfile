@@ -1,5 +1,5 @@
-# Based on tomcat8 with java 8
-FROM tomcat:8-jre8
+# Based on tomcat 8 with java 8
+FROM tomcat:8-jre8-alpine
 
 MAINTAINER Jacek Grzebyta <jgrzebyta@users.noreply.github.com>
 

@@ -8,7 +8,7 @@ buildscript {
 
 
     ext {
-        eldaVersion = '1.4.2'
+        eldaVersion = '1.4.1'
         //eldaVersion = '1.3.20'
         //rdf4jVersion = '2.3.0-M2'
         rdf4jVersion = '2.2.1'

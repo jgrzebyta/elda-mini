@@ -1,5 +1,5 @@
-FROM tomcat:8.5-jre8-alpine
-
+# Based on tomcat 8 with java 8
+FROM tomcat:8-jre8-alpine
 
 MAINTAINER Jacek Grzebyta <jacek.grzebyta@brunel.ac.uk>
 
@@ -27,6 +27,10 @@ VOLUME  ["/srv/config", "/srv/local-assets"]
 # install starting scripts
 RUN cp -v /var/templates/*.sh /usr/local/bin \
     && chmod a+x /usr/local/bin/*.sh
+
+# debugging Tomcat JPDA
+ENV JPDA_ADDRESS="8000"
+ENV JPDA_TRANSPORT="dt_socket"
 
 #expose ports for mapping to host
 EXPOSE 8080

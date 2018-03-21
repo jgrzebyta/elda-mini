@@ -20,5 +20,5 @@ done
 mkdir -p /etc/elda/conf.d/
 cp -vr /srv/config/* /etc/elda/conf.d/
 
-catalina.sh run
+catalina.sh jpda run
 
