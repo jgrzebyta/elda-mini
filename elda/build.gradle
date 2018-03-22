@@ -1,39 +1,20 @@
-repositories {
-	ivy {
-		url 'https://github.com/jgrzebyta/elda/blob/custom/local-bins'
-		layout 'pattern', {
-			artifact '/[organisation]/[module]/[module]-[revision].[ext]?raw=true'
-		}
-	}
-	maven {
-		url 'https://repository.epimorphics.com/'
-	}
-}
-
-configurations {
-	remoteWars
-}
-
-dependencies {
-	remoteWars "com.epimorphics.lda:elda-common:${eldaVersion}@war"
-	remoteWars "com.epimorphics.lda:elda-assets:${eldaVersion}@war"
+plugins {
+	id "de.undercouch.download" version "3.4.2"
 }
 
 defaultTasks 'copy'
 
-
-task copyRemote(type: Copy) {
-	from configurations.remoteWars.resolve()
-	into binDir
-	rename { String fname ->
-		fname.replaceAll("-${eldaVersion}", '')
-	}
-	eachFile { println("Copy file: ${it.name}") }
+task downloadFiles(type: Download) {
+	src ([
+			"https://github.com/jgrzebyta/elda/releases/download/${eldaVersion}/elda-assets.war",
+			"https://github.com/jgrzebyta/elda/releases/download/${eldaVersion}/elda-common.war"
+	])
+	dest binDir
 }
 
 def unpacked = file("$buildDir/unpacked")
 
-task unPack(type: Copy, dependsOn: copyRemote) {
+task unPack(type: Copy, dependsOn: downloadFiles) {
 	def warFile = file("$binDir/elda-common.war")
 	from zipTree(warFile)
 	into unpacked
