@@ -1,10 +1,10 @@
-buildscript {
-	repositories {
-		mavenCentral()
-	}
-}
-
 repositories {
+	ivy {
+		url 'https://github.com/jgrzebyta/elda/blob/custom/local-bins'
+		layout 'pattern', {
+			artifact '/[organisation]/[module]/[module]-[revision].[ext]?raw=true'
+		}
+	}
 	maven {
 		url 'https://repository.epimorphics.com/'
 	}
